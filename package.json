@@ -1,0 +1,16 @@
+{
+  "name": "new-to-the-neighborhood",
+  "version": "1.0.0",
+  "description": "New to the Neighborhood",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -p 1234 -c-1",
+    "zip": "node zip.js"
+  },
+  "author": "Byteboard",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^5.0.2",
+    "http-server": "^0.12.3"
+  }
+}

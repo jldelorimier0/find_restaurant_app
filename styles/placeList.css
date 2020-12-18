@@ -1,0 +1,38 @@
+.place-list-loading {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.place-row {
+  align-items: center;
+  border-top: solid 1px #eee;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 5px 15px;
+}
+.place-row:last-child {
+  border-bottom: solid 1px #eee;
+}
+.place-row:hover {
+  background: #f9f9f9;
+}
+.place-row-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.place-row-address {
+  color: #888;
+  font-size: 12px;
+}
+.place-row-stars {
+  color: #bbb;
+  display: flex;
+  font-size: 12px;
+}
+.place-row-img {
+  border-radius: 10px;
+  height: 80px;
+  width: 124px;
+}

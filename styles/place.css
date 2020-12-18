@@ -1,0 +1,21 @@
+.place-loading {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.place-back {
+  background: #fff no-repeat center center url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0idHJhbnNmb3JtOiBzY2FsZVgoLTEpOyI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA0bC0xLjQxIDEuNDFMMTYuMTcgMTFINHYyaDEyLjE3bC01LjU4IDUuNTlMMTIgMjBsOC04eiIgZmlsbD0iIzAwMDAwMCIgLz48L3N2Zz4=");
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+  height: 32px;
+  outline: none;
+  width: 32px;
+}
+.place-stars {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 20px;
+}

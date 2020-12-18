@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,600');
+@import url('./searchBar.css');
+@import url('./stars.css');
+@import url('./place.css');
+@import url('./placeList.css');
+
+body {
+  color: #444;
+  font-family: 'Google Sans';
+  margin: 0;
+}
+.header {
+  font-size: 20px;
+  padding: 20px 0;
+  text-align: center;
+}

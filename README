@@ -1,0 +1,34 @@
+Task List
+
+You may do these tasks in any order, but take note that they are listed in
+the order your team has prioritized completing them.
+
+Reminder that you are NOT expected to complete all tasks. You are
+expected to write clean, readable code. Remember to add comments explaining
+what you were working on if you run out of time in the middle of a task.
+
+1.  In order to display the list of places in our web app, we first need to get
+    the place and image data from two different REST API endpoints. In
+    data/placeData.js, implement
+
+    function loadPlacesWithImages() { ... }
+
+    The place list data can be obtained by making a GET request to
+    https://byteboard.dev/api/data/places
+    You can get the image URL for each place by making a GET request to
+    https://byteboard.dev/api/data/img/{placeId}
+
+2.  Users should be able to filter the list of places by using the "Filter
+    places" input field. In components/placeList.js, implement
+
+    function getFilteredPlaces(places, filter) { ... }
+
+    We want to surface the most relevant search results, so places where the
+    `name` field matches should appear higher than places where the `address` or
+    `description` fields match.
+
+    3.  When a user clicks on a place from the list, we want to navigate them to a
+        page that has all of the details for that place. (Hint: use
+        `navigateToPlace` in helpers/navigation.js). You will also need to add the
+        place image and finish the styling so that the place page matches the
+        wireframe in the Part 1 document.
